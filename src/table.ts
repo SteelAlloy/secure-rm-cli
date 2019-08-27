@@ -43,9 +43,9 @@ var t1 = Table(header, rows, {
   // truncate: "..."
 })
 
-const str1 = t1.render()
+export const rendering = t1.render()
 
 export default function table () {
   console.log(chalk.bold('METHODS'))
-  console.log(str1)
+  console.log(rendering)
 }
