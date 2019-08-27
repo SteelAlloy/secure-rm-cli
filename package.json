@@ -1,0 +1,74 @@
+{
+  "name": "secure-rm-cli",
+  "version": "0.0.1",
+  "description": "Completely erases files by making recovery impossible. (CLI for secure-rm)",
+  "scripts": {
+    "start": "node bin/run",
+    "start-dev": "node bin/run-dev",
+    "build": "npm run build-ts && npm run lint",
+    "build-ts": "tsc",
+    "watch-ts": "tsc -w",
+    "lint": "tsc --noEmit && eslint \"**/*.{js,ts}\" --quiet --fix",
+    "coverage": "jest --coverage --coverageReporters=text-lcov | coveralls",
+    "test": "jest --coverage --verbose",
+    "watch-test": "npm run test -- --watchAll",
+    "style": "standard --verbose --env jest"
+  },
+  "dependencies": {
+    "@oclif/command": "^1.5.18",
+    "@oclif/parser": "^3.8.4",
+    "chalk": "^2.4.2",
+    "glob": "^7.1.4",
+    "inquirer": "^6.5.2",
+    "ololog": "^1.1.146",
+    "secure-rm": "^2.0.0",
+    "tslib": "^1.10.0",
+    "tty-table": "^2.7.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.18",
+    "coveralls": "^3.0.6",
+    "jest": "^24.8.0",
+    "standard": "^12.0.1",
+    "ts-jest": "^24.0.2",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3",
+    "uuid": "^3.3.3"
+  },
+  "author": "Oganexon @oganexon",
+  "bugs": "https://github.com/oganexon/secure-rm-cli/issues",
+  "homepage": "https://github.com/oganexon/secure-rm-cli#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oganexon/secure-rm-cli.git"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "oclif": {
+    "bin": "secure-rm"
+  },
+  "bin": {
+    "secure-rm": "./bin/run"
+  },
+  "files": [
+    "/dist",
+    "/bin"
+  ],
+  "keywords": [
+    "cli",
+    "privacy",
+    "secure",
+    "data erasure",
+    "file deletion",
+    "remove",
+    "delete",
+    "wipe out",
+    "clean",
+    "erase",
+    "shred",
+    "overwrite",
+    "glob"
+  ],
+  "license": "MIT"
+}
