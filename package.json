@@ -1,6 +1,6 @@
 {
   "name": "secure-rm-cli",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Completely erases files by making recovery impossible. (CLI for secure-rm)",
   "scripts": {
     "start": "node bin/run",

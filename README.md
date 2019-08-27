@@ -44,6 +44,18 @@ If you want to delete files on the fly with a pass of cryptographically strong p
 secure-rm ./your-folder/*.js
 ```
 
+When you submit files, secure-rm asks you if you are sure:
+
+<p align="center">
+  <img src="./assets/check.png" alt="check">
+</p>
+
+And then you get a complete log of what happened:
+
+<p align="center">
+  <img src="./assets/log.png" alt="log">
+</p>
+
 ## 📚 Usage
 
 ```shell
@@ -68,32 +80,9 @@ secure-rm ./folder/*.js ./file.js -s gutmann -f
 ```
 You can invoke the built-in help with `secure-rm -h`:
 
-<!--AUTO GENERATED HELP START-->
-```shell
-CLI help:
-
-USAGE
-  $ secure-rm PATH
-
-OPTIONS
-  -f, --force              avoid checks
-  -h, --help               show CLI help
-  -m, --mute               mutes the cli to the bare minimum
-  -r, --retries=retries    [default: 3] max retries if error
-  -s, --standard=standard  [default: secure] select the erasure standard
-  -t, --table              show the standards table
-  -v, --version            show CLI version
-  --[no-]globbing          allow or not file globbing
-
-DESCRIPTION
-  Completely erases files by making recovery impossible.
-  For extra documentation, go to https://www.npmjs.com/package/secure-rm
-
-EXAMPLES
-  $ secure-rm ./folder/*.js ./file.js -s gutmann -f
-  $ secure-rm /d/code -m
-```
-<!--AUTO GENERATED HELP END-->
+<p align="center">
+  <img src="./assets/help.png" alt="help">
+</p>
 
 ### Standards
 

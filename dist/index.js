@@ -9,7 +9,6 @@ const secure_rm_1 = require("secure-rm");
 const check_1 = tslib_1.__importDefault(require("./check"));
 const table_1 = tslib_1.__importDefault(require("./table"));
 
-console.log("new lib")
 // Custom flag
 const customFlag = (opts = {}, action) => {
     return Parser.flags.boolean(Object.assign(opts, {
