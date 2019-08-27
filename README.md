@@ -33,7 +33,7 @@ This package is the command line interface version of _secure-rm_. To install it
 npm install secure-rm-cli -g
 ```
 
-Looking for the _npm module version_? Visit [secure-rm](https://github.com/oganexon/secure-rm).
+Looking for the _npm module version_? Visit [secure-rm](https://www.npmjs.com/package/secure-rm).
 
 Secure-rm will retry 3 times if an error occur to ensure the task succeeded.
 

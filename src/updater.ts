@@ -15,7 +15,7 @@ process.on('exit', () => {
 
     // BUG can't get notifier.notify() to work so I'm drawing it with tty table
     const rows = [[`Update available (${notifier.update.type}) ${chalk.gray(notifier.update.current)} ➜ ${chalk.green(notifier.update.latest)}
-  Run ${chalk.cyan('npm i secure-rm-cli -g')} to update`]]
+Run ${chalk.cyan('npm i secure-rm-cli -g')} to update`]]
 
     const t1 = Table([], rows, {
       borderStyle: 1,
