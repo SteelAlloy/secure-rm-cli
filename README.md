@@ -1,19 +1,19 @@
 <h1 align="center">
-  <img src="./assets/secure-rm.png" alt="secure-rm-cli">
+  <img src="./assets/secure-rm-cli.png" alt="secure-rm-cli">
   <br>
   Completely erases files by making recovery impossible.
   <br>
 </h1>
 
 <p align="center">
-  <a href="https://www.npmjs.com/package/secure-rm"><img src="https://img.shields.io/npm/v/secure-rm-cli.svg?style=flat-square" alt="Version"></a>
-  <a href="https://www.npmjs.com/package/secure-rm"><img src="https://img.shields.io/npm/dw/secure-rm-cli.svg?style=flat-square" alt="Downloads/week"></a>
+  <a href="https://www.npmjs.com/package/secure-rm-cli"><img src="https://img.shields.io/npm/v/secure-rm-cli.svg?style=flat-square" alt="Version"></a>
+  <a href="https://www.npmjs.com/package/secure-rm-cli"><img src="https://img.shields.io/npm/dw/secure-rm-cli.svg?style=flat-square" alt="Downloads/week"></a>
   <a href="https://github.com/oganexon/secure-rm-cli/blob/master/LICENSE"><img src="https://img.shields.io/npm/l/secure-rm-cli.svg?style=flat-square" alt="License: MIT"></a>
 </p>
 <p align="center">
-  <a href="https://travis-ci.org/oganexon/secure-rm"><img src="https://img.shields.io/travis/oganexon/secure-rm-cli/master.svg?style=flat-square&label=master%20build" alt="Build status: master"></a>
-  <a href="https://travis-ci.org/oganexon/secure-rm"><img src="https://img.shields.io/travis/oganexon/secure-rm-cli/develop.svg?style=flat-square&label=dev%20build" alt="Build status: develop"></a>
-  <a href="https://coveralls.io/github/oganexon/secure-rm"><img src="https://img.shields.io/coveralls/github/oganexon/secure-rm-cli?style=flat-square" alt="Coverage"></a>
+  <a href="https://travis-ci.org/oganexon/secure-rm-cli"><img src="https://img.shields.io/travis/oganexon/secure-rm-cli/master.svg?style=flat-square&label=master%20build" alt="Build status: master"></a>
+  <a href="https://travis-ci.org/oganexon/secure-rm-cli"><img src="https://img.shields.io/travis/oganexon/secure-rm-cli/develop.svg?style=flat-square&label=dev%20build" alt="Build status: develop"></a>
+  <a href="https://coveralls.io/github/oganexon/secure-rm-cli"><img src="https://img.shields.io/coveralls/github/oganexon/secure-rm-cli?style=flat-square" alt="Coverage"></a>
   
 </p>
 
