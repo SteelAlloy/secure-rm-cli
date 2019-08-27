@@ -6,6 +6,7 @@ import chalk from 'chalk'
 import { validIDs, standards } from 'secure-rm'
 import check from './check'
 import table from './table'
+require('./updater')
 
 type Standard = keyof typeof standards
 

@@ -1,6 +1,6 @@
 {
   "name": "secure-rm-cli",
-  "version": "0.0.6",
+  "version": "0.1.0",
   "description": "Completely erases files by making recovery impossible. (CLI for secure-rm)",
   "scripts": {
     "start": "node bin/run",
@@ -23,7 +23,8 @@
     "ololog": "^1.1.146",
     "secure-rm": "^2.0.0",
     "tslib": "^1.10.0",
-    "tty-table": "^2.7.3"
+    "tty-table": "^2.7.3",
+    "update-notifier": "^3.0.1"
   },
   "devDependencies": {
     "@types/jest": "^24.0.18",
