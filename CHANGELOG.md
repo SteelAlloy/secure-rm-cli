@@ -13,3 +13,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Security -->
 
 ## [Unreleased]
+
+## [1.0.0] - 2019-08-27
+
+The CLI is now independant from the lib.
+
+### Added
+- Update notification (check every week).
+- New images.
