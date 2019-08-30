@@ -46,6 +46,6 @@ var t1 = Table(header, rows, {
 export const rendering = t1.render()
 
 export default function table () {
-  console.log(chalk.bold('METHODS'))
+  console.log(chalk.bold('STANDARDS'))
   console.log(rendering)
 }

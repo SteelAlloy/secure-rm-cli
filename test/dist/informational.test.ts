@@ -21,7 +21,7 @@ describe('Informational arguments:', () => {
   it('-t show table', done => {
     execute('npm start -- -t', (err, stdout) => {
       if (err) throw err
-      expect(stdout).toContain('METHODS')
+      expect(stdout).toContain('STANDARDS')
       expect(stdout).toContain('Gutmann')
       done()
     })
