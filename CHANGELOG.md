@@ -14,6 +14,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+
+- Unexpected random newlines in tables.
+
 ## [1.0.0] - 2019-08-27
 
 The CLI is now independant from the lib.

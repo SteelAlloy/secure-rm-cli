@@ -33,7 +33,8 @@ This package is the command line interface version of _secure-rm_. To install it
 npm install secure-rm-cli -g
 ```
 
-Looking for the _npm module version_? Visit <a href="https://www.npmjs.com/package/secure-rm"><img src="https://img.shields.io/badge/-secure--rm-blueviolet?style=flat-square" alt="secure-rm"></a>.
+Looking for the **npm module version**? See:
+<a href="https://www.npmjs.com/package/secure-rm"><img src="https://img.shields.io/badge/-secure--rm-blueviolet?style=flat-square" alt="secure-rm"></a>.
 
 Secure-rm will retry 3 times if an error occur to ensure the task succeeded.
 
@@ -84,7 +85,7 @@ You can invoke the built-in help with `secure-rm -h`:
   <img src="./assets/help.png" alt="help">
 </p>
 
-### Standards
+## Standards
 
 ID | Name | Passes | Description
 -- | ---- | ------ | -----------
