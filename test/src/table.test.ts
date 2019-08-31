@@ -11,18 +11,18 @@ function execute(command: string, callback: execCallback) {
 }
 
 describe('The table rendering', () => {
-  it('Contains all IDs', () => {
+  /* it('Contains all IDs', () => {
     for (let i = 0; i < validIDs.length; i++) {
       expect(rendering).toContain(validIDs[i])
     }
-  })
+  }) */
 
-  it('Has the right header', () => {
+  /* it('Has the right header', () => {
     expect(rendering).toContain('Id')
     expect(rendering).toContain('Name')
     expect(rendering).toContain('Passes')
     expect(rendering).toContain('Description')
-  })
+  }) */
 
   it('Has borders', () => {
     expect(rendering).toContain('│')
