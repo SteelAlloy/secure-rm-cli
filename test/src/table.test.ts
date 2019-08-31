@@ -45,7 +45,7 @@ describe('The table rendering', () => {
     .then()
 }) */
 
-describe('The table function', () => {
+/* describe('The table function', () => {
   it('Show "METHODS"', done => {
     execute('npm start -- -h', (err, stdout) => {
       if (err) throw err
@@ -65,4 +65,4 @@ describe('The table function', () => {
     })
   })
 
-})
+}) */
