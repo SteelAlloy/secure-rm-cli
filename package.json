@@ -21,7 +21,7 @@
     "glob": "^7.1.4",
     "inquirer": "^6.5.2",
     "ololog": "^1.1.146",
-    "secure-rm": "^3.0.0",
+    "secure-rm": "^4.0.1",
     "tslib": "^1.10.0",
     "tty-table": "^2.7.5",
     "update-notifier": "^3.0.1"
