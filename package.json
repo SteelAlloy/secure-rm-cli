@@ -19,7 +19,7 @@
     "@oclif/parser": "^3.8.4",
     "chalk": "^2.4.2",
     "glob": "^7.1.4",
-    "inquirer": "^6.5.2",
+    "inquirer": "^7.0.6",
     "ololog": "^1.1.146",
     "secure-rm": "^3.0.0",
     "tslib": "^1.10.0",
