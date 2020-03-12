@@ -23,7 +23,7 @@
     "ololog": "^1.1.146",
     "secure-rm": "^3.0.0",
     "tslib": "^1.10.0",
-    "tty-table": "^2.7.5",
+    "tty-table": "^4.1.1",
     "update-notifier": "^3.0.1"
   },
   "devDependencies": {
